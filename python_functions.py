@@ -4,4 +4,12 @@ def sum_to(num):
     sum+=n
   return sum
 
-print(sum_to(10))
+# print(sum_to(10))
+
+def largest(nums):
+  nums.sort()
+  return nums[-1]
+
+print(largest([3, 5, 10]))
+print(largest([15, 5, 2]))
+print(largest([5, 12, 10]))
